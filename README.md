@@ -37,9 +37,7 @@ This project uses the following technologies:
 medicinalplants_LLM/
 │
 ├── dataset/
-│   ├── raw/
-│   ├── processed/
-│   └── dataset_plantas.jsonl
+│   ├── dataset_plantas.jsonl
 │
 ├── models/
 │   ├── causal_model_1/
@@ -168,13 +166,13 @@ jupyter notebook 03_model_evaluation.ipynb
 
 ### Seq2Seq Models
 
-- Google FLAN-T5 Base
-- MT5 Base
+- PTT5 Base
+- MT5 Small
 
 ### Causal Models
 
 - Gemma 2 1B
-- SmolLM2 1.7B
+- Qwen 3 0.6B
 
 ---
 
